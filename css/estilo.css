@@ -1,0 +1,58 @@
+.services{
+    padding: 80px 0;
+    margin-top: 3rem;   
+}
+
+.bg-car1{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(236, 105, 105, 0.5)), url(../img/destacados1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-car2{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(62, 157, 235, 0.5)), url(../img/recomendado.jfif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-car3{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(117, 230, 89, 0.5)), url(../img/eficientes.jfif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:767px){
+
+#principal{
+    margin-bottom: -8rem;
+    margin-top: -4rem;
+}
+
+.carousel-item{
+    min-height:500px
+ }
+
+.carousel-item img {
+    height: 500px;
+}
+
+.carousel-caption{
+    bottom: 30px;
+}
+
+.carousel-caption h5{
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.carousel-caption p{
+    width: 100%;
+    font-size: 16px;
+}
+}
